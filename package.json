@@ -1,0 +1,24 @@
+{
+  "name": "motakashi-hello-world-script",
+  "version": "1.0.0",
+  "description": "TypeScriptを使ったライブラリのサンプルコード",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build" : "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/motakashi/library-hello-world.git"
+  },
+  "author": "Morita Takashi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/motakashi/library-hello-world/issues"
+  },
+  "homepage": "https://github.com/motakashi/library-hello-world#readme"
+}
